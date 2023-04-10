@@ -206,3 +206,14 @@ to create the users you want. The usernames will always be created in lowercase
 
 ### Thank you to all our contributors!
 [![contributors](https://contributors-img.web.app/image?repo=vernemq/docker-vernemq)](https://github.com/vernemq/docker-vernemq/graphs/contributors)
+
+
+
+### BUILD COMMANDS
+```
+docker build . -t us-central1-docker.pkg.dev/helio-owl-2022-07/docker-vernemq/docker-vernemq:latest --progress=plain --no-cache
+```
+
+```
+docker push us-central1-docker.pkg.dev/helio-owl-2022-07/docker-vernemq/docker-vernemq:latest
+```
